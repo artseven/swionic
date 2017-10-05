@@ -9,7 +9,7 @@ import { TabsPage } from '../pages/tabs/tabs';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  TabsPage = TabsPage;
+  tabsPage = TabsPage;
 
   @ViewChild('nav') nav: NavController
 
